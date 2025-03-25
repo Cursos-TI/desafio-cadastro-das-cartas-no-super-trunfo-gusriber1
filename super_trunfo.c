@@ -18,7 +18,9 @@ int main(){
     float pibpercap1, pibpercap2;
 
 // Criação da Carta 1.
-    printf("Vamos criar a Carta 1!\n\nDigite a letra do estado. (De 'A' a 'H'): ");
+    printf("Vamos criar a Carta 1!\n\n");
+        
+    printf("Digite a letra do estado. (De 'A' a 'H'): ");
     scanf(" %c", &estado1);
 
     printf("Digite o código. (Letra do estado + dois números): ");
@@ -45,7 +47,6 @@ int main(){
     printf("\nCarta 1 criada com sucesso!\n\n");
 
 // Criação da carta 2.
-
     printf("Agora vamos criar a Carta 2!\n\n");
 
     printf("Digite a letra do estado. (De 'A' a 'H'): ");
