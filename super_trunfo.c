@@ -123,13 +123,16 @@ int main(){
     //Exibição das comparações
 
     printf("***Comparação das cartas***\n\n");
-    printf("População: Carta 1 é maior do que Carta 2? %d\n", compPop);
-    printf("Área: Carta 1 é maior do que Carta 2? %d\n", compArea);
-    printf("PIB: Carta 1 é maior do que Carta 2? %d\n", compPIB);
-    printf("Pontos turísticos: Carta 1 é maior do que Carta 2? %d\n", compPontosTuristicos);
-    printf("Densidade populacional: Carta 1 é menor do que Carta 2? %d\n", compDensidadePop);
-    printf("PIB per Capta: Carta 1 é maior do que Carta 2? %d\n", compPIBperCapta);
-    printf("Super Poder: Carta 1 é maior do que Carta 2? %d\n", compSuperPoder);
+
+    printf("O programa retornará 1 se a Carta 1 vencer e 0 se a Carta 2 vencer\n\n");
+    
+    printf("População: %d\n", compPop);
+    printf("Área: %d\n", compArea);
+    printf("PIB: %d\n", compPIB);
+    printf("Pontos turísticos: %d\n", compPontosTuristicos);
+    printf("Densidade populacional: %d\n", compDensidadePop);
+    printf("PIB per Capta: %d\n", compPIBperCapta);
+    printf("Super Poder: %d\n", compSuperPoder);
 
     return 0;
 }
